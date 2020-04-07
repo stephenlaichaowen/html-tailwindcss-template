@@ -2,7 +2,7 @@
 
 First you need to create a `package.json` file
 ```
-npm ini -y
+npm init -y
 ```
 
 Then install `tailwindcss`, `postcss-cli`, `autoprefixer`
