@@ -5,7 +5,7 @@ First you need to create a `package.json` file
 npm ini -y
 ```
 
-Then install tailwindcss, postcss-cli, autoprefixer
+Then install `tailwindcss`, `postcss-cli`, `autoprefixer`
 ```
 npm i tailwindcss postcss-cli autoprefixer
 ```
