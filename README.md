@@ -1,4 +1,4 @@
-### Tailwind is a postcss plugin !
+## This tutorial will guide you to build your first tailwindcss project step by step
 
 First you need to create a `package.json` file
 ```
@@ -52,3 +52,5 @@ Change directory to `public` and run `live-server` to open web page and that's i
 - Then we created `tailwind.css` where we drop in three tailwind sort of markers to tell tailwind where to include generated css 
 - Then we wrote a very simple build cript using `postcss-cli` to take our `tailwind.css` input file and compiled into a public directory
 - Finally we created a `index.html` file and add generated css file, then we wrote a h1 tag and write a bit test codes 
+
+### Tailwind is a postcss plugin !!!
