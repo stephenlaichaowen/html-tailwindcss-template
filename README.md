@@ -1,4 +1,4 @@
-### tailwind is just a postcss plugin !!!
+### Tailwind is a postcss plugin !
 
 First you need to create a `package.json` file
 ```
