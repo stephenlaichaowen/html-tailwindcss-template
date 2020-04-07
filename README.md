@@ -10,7 +10,7 @@ Then install `tailwindcss`, `postcss-cli`, `autoprefixer`
 npm i tailwindcss postcss-cli autoprefixer
 ```
 
-Configure tailwindcss by creating `tailwind.config.js` file, this file lets you customize your css file
+Creating `tailwind.config.js` file to configure `tailwindcss`
 ```
 npx tailwind init
 ```
@@ -47,7 +47,7 @@ Change directory to `public` and run `live-server` to open web page and that's i
  
 ### Just a simple recap
 - first we install a few dependencies in this case we install `autoprefixer`, `postcss-cli` and `tailwindcss`
-- Next we scaffold `tailwind.config.js`
+- Next we scaffold `tailwind.config.js`, we customize our css in this file
 - Then we created a `postcss.config.js`file and specity `tailwindcss` and `autoprefixer` as postcss plugins we want to use
 - Then we created `tailwind.css` where we drop in three tailwind sort of markers to tell tailwind where to include generated css 
 - Then we wrote a very simple build cript using `postcss-cli` to take our `tailwind.css` input file and compiled into a public directory
