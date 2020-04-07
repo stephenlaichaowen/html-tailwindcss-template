@@ -1,4 +1,6 @@
-## This tutorial will guide you to build your first tailwindcss project step by step
+## Tailwindcss template
+
+### This tutorial will guide you to build your first tailwindcss project step by step
 
 First you need to create a `package.json` file
 ```
