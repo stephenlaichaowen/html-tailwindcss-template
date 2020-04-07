@@ -1,4 +1,4 @@
-tailwind is a postcss plugin
+### tailwind is just a postcss plugin !!!
 
 First you need to create a `package.json` file
 ```
@@ -43,9 +43,9 @@ Create a `index.html` file under `public` directory, and insert this link to `<h
 <link rel="stylesheet" href="build/tailwind.css">
 ```
 
-Switch to `public` folder and run live-server to open web page and that's it, you are ready to build a dazzling app !!!
+Change directory to `public` and run `live-server` to open web page and that's it, you are ready to build a dazzling app !!!
  
-Just a simple recap
+### Just a simple recap
 - first we install a few dependencies in this case we install `autoprefixer`, `postcss-cli` and `tailwindcss`
 - Next we scaffold `tailwind.config.js`
 - Then we created a `postcss.config.js`file and specity `tailwindcss` and `autoprefixer` as postcss plugins we want to use
