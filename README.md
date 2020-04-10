@@ -46,6 +46,22 @@ Create a `index.html` file under `public` directory, and insert this link to `<h
 ```
 
 Change directory to `public` and run `live-server` to open web page and that's it, you are ready to build a dazzling app !!!
+
+### How to customize your own tailwindcss class
+
+First, delete `tailwind.config.js`, Then execute the command `npx tailwindcss init --full` to generate all the tailwindcss configures
+
+If you want to add your own color, you can name your own color for example, `stephenColor`, and assign a value to it
+```
+colors: {
+  ...
+  stephenColor: '#f00',
+  ...
+}
+```
+
+
+
  
 ### Just a simple recap
 - first we install a few dependencies in this case we install `autoprefixer`, `postcss-cli` and `tailwindcss`

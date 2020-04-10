@@ -4,7 +4,8 @@
   "description": "tailwind is a postcss plugin",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "dev": "live-server ./public --port=9087"
   },
   "keywords": [],
   "author": "",
