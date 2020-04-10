@@ -1,4 +1,4 @@
-## Tailwindcss template
+## Bootstrap your UI with Tailwindcss
 
 ### This tutorial will guide you to build your first tailwindcss project step by step
 
